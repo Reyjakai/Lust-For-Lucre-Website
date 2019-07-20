@@ -1,56 +1,91 @@
 /* File for the main site. */
 
 body {
-    min-height: 500px;
-    width: 100%;
-    margin: 0;
-    overflow-x: hidden;
-  }
-  
-  nav ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    max-width: 1120px;
-    list-style-type: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    color: grey;
-  }
-  
-  li a.active {
-    color: grey;
-  }
-  
-  #header-nav {
-    background-color: rgba(181, 150, 79, .8);
-    margin: 0;
-  }
-  
-  .nav-button {
-    font-size: 25px;
-    padding: 10px 15px;
-  }
-  
-  .nav-left {
-    float: left;
-  }
-  .nav-right {
-    float: right;
-  }
-  
-  .fa-twitter {
-    color: white;
-    font-size: 32px;
-    vertical-align: middle;
-  }
+	min-height: 500px;
+	width: 100%;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+nav ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	max-width: 1120px;
+	list-style-type: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: grey;
+}
+
+li a.active {
+	color: grey;
+}
+
+#header-nav {
+	background-color: rgba(181, 150, 79, .8);
+	margin: 0;
+}
+
+#girls-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#girls-wrapper img:nth-child(1) {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper-logo {
+	height: 100%;
+}
+
+#wrapper-logo div {
+	position: absolute;
+	width: 100%;
+}
+
+.nav-button {
+	font-size: 25px;
+	padding: 10px 15px;
+}
+
+.nav-left {
+	float: left;
+}
+.nav-right {
+	float: right;
+}
+
+.fa-twitter {
+	color: white;
+	font-size: 32px;
+	vertical-align: middle;
+}
