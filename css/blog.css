@@ -1,56 +1,282 @@
 /* File for the main site. */
 
 body {
-    min-height: 500px;
-    width: 100%;
-    margin: 0;
-    overflow-x: hidden;
-  }
-  
-  nav ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    max-width: 1120px;
-    list-style-type: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    color: grey;
-  }
-  
-  li a.active {
-    color: grey;
-  }
-  
-  #header-nav {
-    background-color: rgba(181, 150, 79, .8);
-    margin: 0;
-  }
-  
-  .nav-button {
-    font-size: 25px;
-    padding: 10px 15px;
-  }
-  
-  .nav-left {
-    float: left;
-  }
-  .nav-right {
-    float: right;
-  }
-  
-  .fa-twitter {
-    color: white;
-    font-size: 32px;
-    vertical-align: middle;
-  }
+	min-height: 500px;
+	width: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	background-image: url('../images/Uberia World Map.png');
+	background-color: rgb(4, 4, 6);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	z-index: 10;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: grey;
+}
+
+li a.active {
+	color: grey;
+}
+
+nav ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	max-width: 70%;
+	list-style-type: none;
+}
+
+#background-logo {
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 45%,
+		rgba(0, 0, 0, 0) 55%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 45%,
+		rgba(0, 0, 0, 0) 55%
+	);
+}
+
+#background-logo img {
+	width: -webkit-fill-available;
+}
+
+#header-nav {
+	background-color: rgb(213, 169, 13);
+	margin: 0;
+	z-index: 100;
+}
+
+#girls-wrapper {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#girls-wrapper img {
+	position: absolute;
+	width: 37%;
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 95%,
+		rgba(0, 0, 0, 0) 100%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 95%,
+		rgba(0, 0, 0, 0) 100%
+	);
+}
+
+#girls-wrapper img:nth-child(1) {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+#girls-wrapper img:nth-child(2) {
+	margin-top: 2%;
+	left: 17%;
+	z-index: 4;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 97%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 97%
+	);
+}
+#girls-wrapper img:nth-child(3) {
+	margin-top: 2%;
+	right: 19%;
+	z-index: 4;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 97%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 97%
+	);
+}
+#girls-wrapper img:nth-child(4) {
+	margin-top: 3%;
+	left: 3%;
+	z-index: 3;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 95%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 95%
+	);
+}
+#girls-wrapper img:nth-child(5) {
+	margin-top: 2%;
+	right: 8%;
+	z-index: 3;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 97%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 97%
+	);
+}
+#girls-wrapper img:nth-child(6) {
+	margin-top: 3%;
+	left: -3%;
+	z-index: 2;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 95%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 94%,
+		rgba(0, 0, 0, 0) 95%
+	);
+}
+#girls-wrapper img:nth-child(7) {
+	margin-top: 3%;
+	right: 2%;
+	z-index: 2;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 93%,
+		rgba(0, 0, 0, 0) 95%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 93%,
+		rgba(0, 0, 0, 0) 95%
+	);
+}
+#girls-wrapper img:nth-child(8) {
+	left: 0;
+	z-index: 1;
+}
+#girls-wrapper img:nth-child(9) {
+	right: 0;
+	z-index: 1;
+}
+
+#logo {
+	margin: 20px auto 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+#logo img {
+	display: block;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-smoke {
+	z-index: 2;
+}
+
+#logo-smoke img {
+	width: 100%;
+	height: 109%;
+
+	mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 97%,
+		rgba(0, 0, 0, 0) 100%
+	);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 97%,
+		rgba(0, 0, 0, 0) 100%
+	);
+}
+
+#page-container {
+	width: 100%;
+}
+
+#wrapper-logo {
+	height: 100%;
+	z-index: 1;
+}
+
+#wrapper-logo div {
+	position: absolute;
+	width: 100%;
+}
+
+.nav-button {
+	font-size: 25px;
+	padding: 10px 15px;
+}
+
+.nav-left {
+	float: left;
+}
+.nav-right {
+	float: right;
+}
+
+.fa-twitter {
+	color: white;
+	font-size: 32px;
+	vertical-align: middle;
+}
