@@ -10,6 +10,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 
 header {
@@ -61,156 +62,16 @@ nav ul {
 }
 
 #header-nav {
-	background-color: rgb(213, 169, 13);
 	margin: 0;
 	z-index: 100;
-}
-
-#girls-wrapper {
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	z-index: 1;
-}
-
-#girls-wrapper img {
-	position: absolute;
-	width: 37%;
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 95%,
-		rgba(0, 0, 0, 0) 100%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 95%,
-		rgba(0, 0, 0, 0) 100%
-	);
-}
-
-#girls-wrapper img:nth-child(1) {
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	z-index: 5;
-}
-#girls-wrapper img:nth-child(2) {
-	margin-top: 2%;
-	left: 17%;
-	z-index: 4;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 97%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 97%
-	);
-}
-#girls-wrapper img:nth-child(3) {
-	margin-top: 2%;
-	right: 19%;
-	z-index: 4;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 97%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 97%
-	);
-}
-#girls-wrapper img:nth-child(4) {
-	margin-top: 3%;
-	left: 3%;
-	z-index: 3;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 95%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 95%
-	);
-}
-#girls-wrapper img:nth-child(5) {
-	margin-top: 2%;
-	right: 8%;
-	z-index: 3;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 97%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 97%
-	);
-}
-#girls-wrapper img:nth-child(6) {
-	margin-top: 3%;
-	left: -3%;
-	z-index: 2;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 95%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 94%,
-		rgba(0, 0, 0, 0) 95%
-	);
-}
-#girls-wrapper img:nth-child(7) {
-	margin-top: 3%;
-	right: 2%;
-	z-index: 2;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 93%,
-		rgba(0, 0, 0, 0) 95%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 93%,
-		rgba(0, 0, 0, 0) 95%
-	);
-}
-#girls-wrapper img:nth-child(8) {
-	left: 0;
-	z-index: 1;
-}
-#girls-wrapper img:nth-child(9) {
-	right: 0;
-	z-index: 1;
+	background-image: linear-gradient(
+		rgb(3, 3, 3) 0%,
+		rgb(131, 16, 0) 5%, 
+		rgb(236, 202, 104) 30%, 
+		rgb(236, 202, 104) 70%, 
+		rgb(131, 16, 0) 95%,
+		rgb(3, 3, 3) 100%
+	)
 }
 
 #logo {
@@ -250,6 +111,7 @@ nav ul {
 }
 
 #page-container {
+	margin-top: 150px;
 	width: 100%;
 }
 
