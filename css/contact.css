@@ -5,12 +5,12 @@ body {
 	width: 100%;
 	margin: 0;
 	overflow-x: hidden;
-	background-image: url('../images/Uberia World Map.png');
+	background-image: url('../images/Bohunk_Bluff.jpg');
 	background-color: rgb(4, 4, 6);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
+	color: black;
 }
 
 header {
@@ -42,23 +42,16 @@ nav ul {
 	list-style-type: none;
 }
 
-#background-logo {
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 45%,
-		rgba(0, 0, 0, 0) 55%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 45%,
-		rgba(0, 0, 0, 0) 55%
-	);
+#developer-blog-logo {
+	text-align: center;
 }
 
-#background-logo img {
-	width: -webkit-fill-available;
+#developer-blog-logo img {
+	display: block;
+	width: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
 }
 
 #header-nav {
@@ -66,48 +59,19 @@ nav ul {
 	z-index: 100;
 	background-image: linear-gradient(
 		rgb(3, 3, 3) 0%,
-		rgb(131, 16, 0) 5%, 
-		rgb(236, 202, 104) 30%, 
-		rgb(236, 202, 104) 70%, 
-		rgb(131, 16, 0) 95%,
+		rgb(149, 54, 56) 1%, 
+		rgb(239, 186, 163) 30%, 
+		rgb(239, 186, 163) 70%, 
+		rgb(149, 54, 56) 99%,
 		rgb(3, 3, 3) 100%
 	)
 }
 
-#logo {
-	margin: 20px auto 0;
-	left: 0;
-	right: 0;
-	z-index: 2;
-}
-
 #logo img {
 	display: block;
-	width: 45%;
+	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#logo-smoke {
-	z-index: 2;
-}
-
-#logo-smoke img {
-	width: 100%;
-	height: 109%;
-
-	mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 97%,
-		rgba(0, 0, 0, 0) 100%
-	);
-	-webkit-mask-image: linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 1) 97%,
-		rgba(0, 0, 0, 0) 100%
-	);
 }
 
 #page-container {
@@ -115,14 +79,30 @@ nav ul {
 	width: 100%;
 }
 
-#wrapper-logo {
-	height: 100%;
-	z-index: 1;
+.blog-entry {
+	background-color: blanchedalmond;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 20px;
+	border: 10px solid transparent;
+	border-image: url(../images/Border_Design_1.png) 33 stretch;
+	border-image-slice: 33%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	margin-bottom: 30px;
 }
 
-#wrapper-logo div {
-	position: absolute;
+.centered-wrapper {
 	width: 100%;
+	margin: 20px auto 0;
+	left: 0;
+	right: 0;
 }
 
 .nav-button {
